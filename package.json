@@ -2,13 +2,15 @@
   "name": "blogapi",
   "version": "1.0.0",
   "description": "learning crud",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "uuid": "^3.3.2"
   }
 }
